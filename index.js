@@ -1,6 +1,7 @@
 'use strict'
 
 module.exports = LRUCache
+module.exports.default = LRUCache
 
 // This will be a proper iterable 'Map' in engines that support it,
 // or a fakey-fake PseudoMap in older versions.
